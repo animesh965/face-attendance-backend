@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+data/uploads/*
+!data/uploads/.gitkeep
+*.log
+.pytest_cache/
+.venv/
+
+# Virtual env / archives (too large for GitHub)
+venv/
+*.rar
+*.zip
+
+# Uploaded face photos (personal data)
+app/uploads/*
+app1/uploads/*
+app2/uploads/*
+data/uploads/*
+!**/uploads/.gitkeep
+
+# Local tooling
+.claude/
+
+# Face embeddings (biometric data)
+**/embeddings/*.pkl

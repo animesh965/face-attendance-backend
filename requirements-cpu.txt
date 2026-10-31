@@ -1,0 +1,15 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+insightface==0.7.3
+onnxruntime==1.22.0
+motor==3.7.1
+pymongo==4.14.1
+numpy==2.2.6
+opencv-python-headless==4.12.0.88
+pydantic==2.11.7
+pydantic-settings==2.10.1
+python-jose[cryptography]==3.5.0
+pwdlib[argon2]==0.2.1
+email-validator==2.2.0
+python-multipart==0.0.20
+slowapi==0.1.9
