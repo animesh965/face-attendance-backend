@@ -69,10 +69,6 @@ The current search layer uses MongoDB embeddings so the system remains simple to
 
 For the initial setup only, create the requested account with:
 
-```bash
-SEED_ADMIN_EMAIL=user@example.com \
-SEED_ADMIN_PASSWORD='12345678' \
-python -m scripts.seed_admin
-```
+
 
 Do not keep this password in a production `.env`; change it immediately after first deployment.
