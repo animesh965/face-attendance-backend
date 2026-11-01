@@ -26,3 +26,13 @@ data/uploads/*
 
 # Face embeddings (biometric data)
 **/embeddings/*.pkl
+
+# Old copies and scratch scripts (kept locally only)
+app1/
+app2/
+tracker_test.py
+nginx.conf.example
+hello.py
+detection_test.py
+camera_test.py
+camera_capture_test.py
